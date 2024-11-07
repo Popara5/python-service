@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  python-service:
+    build: ./path/to/python/repo
+    ports:
+      - "5000:5000"
+  node-service:
+    build: ./path/to/node/repo
+    ports:
+      - "3000:3000"
+  laravel-service:
+    build: ./path/to/laravel/repo
+    ports:
+      - "8000:8000"
